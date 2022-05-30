@@ -19,11 +19,9 @@ def restart():
     print(logo)
     us_ca = []
     ai_ca = []
-    # for _ in range(2):
-    #   us_ca.append(deal_card(DECK))
-    #   ai_ca.append(deal_card(DECK))
-    us_ca = [10,2]
-    ai_ca = [11,11]
+    for _ in range(2):
+      us_ca.append(deal_card(DECK))
+      ai_ca.append(deal_card(DECK))
     check_winner(us_ca, ai_ca)
 
 def score_calc(cards):
