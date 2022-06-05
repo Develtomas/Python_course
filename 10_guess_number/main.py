@@ -29,7 +29,7 @@ def start_new():
 
 
 def main_game():
-    number = randint(1, 100)
+    number = randint(1, 101)
     att = chose_difficulty()
     while att > 0:
         pl_num = int(input('Choose number between 1 and 100: '))
